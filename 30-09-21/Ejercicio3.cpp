@@ -62,9 +62,8 @@ node query(int ql, int qr, int k = 1, int l = 1, int r = n) {
 int main() {
 
   cin >> n >> q;
-	//scanf("%d%d", &n, &q);
-	for (int i = 1; i <= n; ++i)
-		//scanf("%d", a + i);
+  
+  for (int i = 1; i <= n; ++i)
     cin >> a[i];
 
 	build();

@@ -5,7 +5,6 @@
 // CUI: 20182906
 
 #include <bits/stdc++.h>
-#include <vector>
 using namespace std;
 
 vector<int> solution(string &S, vector<int> &P, vector<int> &Q) {

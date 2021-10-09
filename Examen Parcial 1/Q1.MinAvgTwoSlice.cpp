@@ -1,4 +1,4 @@
-// Pregunta 1: Se proporciona uu arreglo A no vacío que consta de N números enteros. Un par de números enteros (P, Q), tales que 0 ≤ P <Q <N, se llama un segmento del arreglo A (observe que el segmento contiene al menos dos elementos). El promedio de una rebanada (P, Q) es la suma de A [P] + A [P + 1] + ... + A [Q] dividida por la longitud de la rebanada. Para ser precisos, el promedio es igual a (A [P] + A [P + 1] + ... + A [Q]) / (Q - P + 1).
+// Pregunta 1: Se proporciona un arreglo A no vacío que consta de N números enteros. Un par de números enteros (P, Q), tales que 0 ≤ P <Q <N, se llama un segmento del arreglo A (observe que el segmento contiene al menos dos elementos). El promedio de una rebanada (P, Q) es la suma de A [P] + A [P + 1] + ... + A [Q] dividida por la longitud de la rebanada. Para ser precisos, el promedio es igual a (A [P] + A [P + 1] + ... + A [Q]) / (Q - P + 1).
 // Curso: Programación Competitiva
 // Grupo: A
 // Alumna: Fernanda Anthoanette Paredes Escobedo

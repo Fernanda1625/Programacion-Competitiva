@@ -53,7 +53,7 @@ int main() {
             }
         }
 
-        // BFS
+        // Breadth First Search
         queue<loc> q;
         q.push(s);
         v[s.x][s.y][s.z] = 0;

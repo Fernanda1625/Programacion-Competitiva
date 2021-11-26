@@ -1,6 +1,6 @@
 // Problema 6: Dungeon Master
 // URL: https://open.kattis.com/problems/dungeon
-// Curso: Programación Competitiva
+// Curso: ProgramaciÃ³n Competitiva
 // Grupo: A
 // Alumna: Fernanda Anthoanette Paredes Escobedo
 // CUI: 20182906
@@ -53,7 +53,7 @@ int main() {
             }
         }
 
-        // BFS
+        // Breadth First Search
         queue<loc> q;
         q.push(s);
         v[s.x][s.y][s.z] = 0;
@@ -62,7 +62,6 @@ int main() {
             loc c = q.front();
             q.pop();
 
-            // Try 6 positions
             if( inrange(c.x-1,c.y,c.z) && v[c.x-1][c.y][c.z] == -2 ) {
                 v[c.x-1][c.y][c.z] = v[c.x][c.y][c.z] + 1;
                 q.push({c.x-1,c.y,c.z});

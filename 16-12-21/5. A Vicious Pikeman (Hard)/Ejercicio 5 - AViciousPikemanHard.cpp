@@ -44,10 +44,10 @@ int main() {
 	for (int j = 1; j <= C; ++j) {
 		if (countof[j] == 0) continue;
 		if (Tleft < j) break;
-		ll s = min(countof[j], Tleft / j);
+		long long s = min(countof[j], Tleft / j);
 		pr += s;
 		Tleft -= j * s;
-		ll sM = s % MOD;
+		long long sM = s % MOD;
 		tm = (tm + ((sM * (Tused % MOD)) % MOD)) % MOD;
 		if (sM % 2 == 0)
 			tm = (tm + ((((sM / 2 * (sM + 1)) % MOD) * j) % MOD)) % MOD;
